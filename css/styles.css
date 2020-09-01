@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,*:before,*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+
+nav,footer,header,aside {display: block;}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit;
+  font-weight: 400;}
+
+ body {
+   padding: 61px;
+   font-family: montserrat;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 17px;
+   color: rgba(31, 32, 65, 0.5);
+   max-width: 1920px;
+   margin: 0 auto;
+ }
+ .head {
+   position: absolute;
+   width: 1440px;
+   height: 70px;
+   background: #FFFFFF;
+   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+   margin:0 auto;
+ }
+
+ .circle {
+position: relative;
+width: 40px;
+height: 40px;
+left: 140px;
+top: 15px;
+border-radius: 50%;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+ }
+
+.circle-in {
+  position: relative;
+width: 36px;
+height: 36px;
+left: 2px;
+top: 2px;
+border-radius: 50%;
+background: #FFFFFF;
+}
+.thing-1 {
+  position: relative;
+  left: 6.91px;
+  top: 13.81px;
+}
+.thing-2 {
+  position: relative;
+  left: 2.47px;
+  top: 8.29px;
+}
+.toxin {
+  position: relative;
+  left: 192.5px;
+  bottom: 10px;
+}
+
+.about {
+  position: absolute;
+  left: 531px;
+  top: 25px;
+}
+.services {
+  position: absolute;
+  left: 593px;
+  top: 25px;
+}
+.services::after {
+  content: url(../img/expand_more.png);
+  position: relative;
+width: 24px;
+height: 21px;
+left: 6px;
+}
+.services-child {
+  display: none;
+}
+.servbtn {
+    background-color: #fff;
+    font-family: montserrat;
+    font-style: normal;
+   font-weight: normal;
+   color: rgba(31, 32, 65, 0.5);
+}
+.services-child a {
+  color: rgba(31, 32, 65, 0.5);
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  text-decoration: none;
+  display: block;
+}
+.services:hover .services-child {
+  display: block;
+transition-duration: 1s;
+
+}
+.services::after:hover {
+  display: none;
+}
+
+.jobs {
+  position: absolute;
+  left: 687px;
+  top: 25px;
+}
+
+.news {
+  position: absolute;
+  left: 779px;
+  top: 25px;
+}
+
+.agreements {
+  position: absolute;
+  left: 861px;
+  top: 25px;
+}
+.agreements::after {
+  content: url(../img/expand_more.png);
+  position: relative;
+width: 24px;
+height: 21px;
+left: 6px;
+}
+
+.login-button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #BC9CFF;
+  width: 87px;
+height: 34px;
+border-radius: 22px;
+  position: absolute;
+  left: 997px;
+  top: 18px;
+}
+
+.signin-button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 196px;
+height: 34px;
+left: 1104px;
+top: 18px;
+border-radius: 22px;
+  position: absolute;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+ a {
+   color: rgba(31, 32, 65, 0.5);
+}
